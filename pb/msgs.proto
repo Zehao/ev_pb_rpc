@@ -1,0 +1,23 @@
+
+
+message Requester1 {
+    required uint32 id = 1 [default = 1];
+    optional string content = 2;
+
+}
+
+message Response1 {
+    required uint32 id = 1 [default = 2];
+    optional string content = 2;
+}
+
+message Requester2 {
+    required uint32 id = 1 [default = 3];
+    optional string content = 2;
+
+}
+
+message Response2 {
+    required uint32 id = 1 [default = 4];
+    optional string content = 2;
+}
