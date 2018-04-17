@@ -7,7 +7,7 @@
 #include <arpa/inet.h>
 #include <sys/errno.h>
 #include "listener.h"
-#include "log.h"
+#include "../common/log.h"
 
 event_base *GetServerEventBase();
 
